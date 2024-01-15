@@ -1,0 +1,12 @@
+name: Learn Github Action
+run-name: ${{github.actor}} is learning Github Actions
+on:
+  label:
+    types:
+      - created
+  push:
+    branches:
+      - main
+  page_build:
+  schedule:
+    - cron:

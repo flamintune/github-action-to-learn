@@ -1,6 +1,12 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+on: 
+  schedule:
+    - cron: '45 2 * * 1-5'
+    - cron: '22 6 * * 1-5'
+    - cron: '45 7 * * 1-5'
+    - cron: '7 9 * * 1-5'
+    - cron: '* * * * 1-5'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
