@@ -6,7 +6,7 @@ on:
     - cron: '22 6 * * 1-5'
     - cron: '45 7 * * 1-5'
     - cron: '7 9 * * 1-5'
-    - cron: '* * * * 1-5'
+    - cron: '* * * * *'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

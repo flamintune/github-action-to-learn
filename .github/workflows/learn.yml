@@ -8,5 +8,3 @@ on:
     branches:
       - main
   page_build:
-  schedule:
-    - cron:
